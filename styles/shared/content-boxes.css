@@ -1,0 +1,22 @@
+.content-box {
+	padding: 1em;
+	background-color: var(--color-master-primary-lighter);
+}
+.content-box .content-box {
+	background-color: #fff;
+	border: 2px solid var(--color-master-primary-light);
+}
+.content-box .content-box .content-box {
+	background-color: var(--color-neutral-lighter);
+	border: none;
+}
+
+.content-box-close {
+	text-align: right;
+	margin-bottom: 0.5em;
+
+}
+.content-box-close [class="iconfont-ex-symbol"]:before {
+	color: var(--color-master-primary);
+	cursor: pointer;
+}

@@ -1,0 +1,16 @@
+{
+	"name": "jje-v3",
+	"version": "3.0.0",
+	"description": "",
+	"main": "router.js",
+	"scripts": {
+		"dev": "python -m SimpleHTTPServer 80",
+		"postinstall": "sh ./shell-scripts/vendor.sh"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"navigo": "7.1.2"
+	}
+}
