@@ -1,0 +1,96 @@
+{
+	"_id": {
+		"$oid": "5b806df08e3cbb0057608b0e"
+	},
+	"systemName": "laughing-skull-clean",
+	"name": "Laughing Skull (Clean) - Atlanta, GA",
+	"date": "November 16, 2016",
+	"image": "images/laughs/laughingskull",
+	"youtubeVideoCode": "fHBD1N-_AyE",
+	"order": {
+		"$numberInt": "1"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b806e1f8e3cbb0057608b0f"
+	},
+	"systemName": "pride-comedy-explicit",
+	"name": "Gay Pride (Explicit) - Little Rock, AR",
+	"date": "June 30, 2017",
+	"image": "images/laughs/thumb-lolshow",
+	"youtubeVideoCode": "AvojH-DQkeo",
+	"order": {
+		"$numberInt": "2"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b806e418e3cbb0057608b10"
+	},
+	"systemName": "outmemphis-fundraiser",
+	"name": "OUTMemphis Fundraiser - Memphis, TN",
+	"date": "June 30, 2016",
+	"image": "images/laughs/outloud-raiser",
+	"youtubeVideoCode": "9sh_Hf1aPx4",
+	"order": {
+		"$numberInt": "3"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b806ee58e3cbb0057608b11"
+	},
+	"systemName": "veterans-of-comedy",
+	"name": "Veterans of Comedy - Little Rock, AR",
+	"date": "January 10, 2018",
+	"image": "images/laughs/loonybin",
+	"youtubeVideoCode": "nkfEKH6dubk",
+	"order": {
+		"$numberInt": "4"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b806f0a8e3cbb0057608b12"
+	},
+	"systemName": "cupcake-cabaret",
+	"name": "Cupcake Cabaret - Chicago, IL",
+	"date": "April 25, 2018",
+	"image": "images/laughs/thumb-mglcc-2",
+	"youtubeVideoCode": "3O6EBgGMyhY",
+	"order": {
+		"$numberInt": "5"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b806f288e3cbb0057608b13"
+	},
+	"systemName": "fall-for-you-piano-bit-featuring-el-throb",
+	"name": "Fall For You Piano Bit f/ El Throbv",
+	"date": "August 1, 2015",
+	"image": "images/laughs/fall4u",
+	"youtubeVideoCode": "la2csXGxWmo",
+	"order": {
+		"$numberInt": "6"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}

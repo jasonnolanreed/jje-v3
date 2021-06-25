@@ -1,0 +1,90 @@
+{
+	"_id": {
+		"$oid": "5b7b358c2bffd100453f7cae"
+	},
+	"trackName": "All Along",
+	"albumName": "Envy the Faithful",
+	"year": "2014",
+	"audioFile": "v1515600089/jje/audio/all-along",
+	"order": {
+		"$numberInt": "1"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b7b35bb2bffd100453f7caf"
+	},
+	"trackName": "Burn The Blood",
+	"albumName": "Envy the Faithful",
+	"year": "2014",
+	"audioFile": "v1515600097/jje/audio/burn-the-blood",
+	"order": {
+		"$numberInt": "2"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b7b35ce2bffd100453f7cb0"
+	},
+	"trackName": "Pretender",
+	"albumName": "Clockwork Neon",
+	"year": "2010",
+	"audioFile": "v1515600091/jje/audio/pretender",
+	"order": {
+		"$numberInt": "3"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b7b35e12bffd100453f7cb1"
+	},
+	"trackName": "Evangeline",
+	"albumName": "Sketches",
+	"year": "2012",
+	"audioFile": "v1515600091/jje/audio/05_Evangeline",
+	"order": {
+		"$numberInt": "4"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b7b35f82bffd100453f7cb2"
+	},
+	"trackName": "Too Much Fun",
+	"albumName": "Sketches",
+	"year": "2012",
+	"audioFile": "v1515600091/jje/audio/06_Too_Much_Fun",
+	"order": {
+		"$numberInt": "5"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b7b360f2bffd100453f7cb3"
+	},
+	"trackName": "Circles",
+	"albumName": "Clockwork Neon",
+	"year": "2010",
+	"audioFile": "v1515600091/jje/audio/Circles",
+	"order": {
+		"$numberInt": "6"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"_id": {
+		"$oid": "5b7c27dd71e81f0056d46ed7"
+	},
+	"systemName": "sin-and-shame-live",
+	"name": "Sin & Shame - Live",
+	"date": "Feb 18, 2016",
+	"image": "images/lyrics/thumb-stickyz",
+	"youtubeVideoCode": "u-8LUMCCUjg",
+	"order": {
+		"$numberInt": "1"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b7c281371e81f0056d46ed8"
+	},
+	"systemName": "mary-jane-piano-bar-cover",
+	"name": "Mary Jane - Piano Bar Cover",
+	"date": "April 5, 2015",
+	"image": "images/lyrics/pdx",
+	"youtubeVideoCode": "Bf3GrTBC3CY",
+	"order": {
+		"$numberInt": "2"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b7c283971e81f0056d46ed9"
+	},
+	"systemName": "love-is-a-battlefield-guitar-cover",
+	"name": "Love Is A Battlefield - Guitar Cover",
+	"date": "December 20, 2014",
+	"image": "images/lyrics/battlefield",
+	"youtubeVideoCode": "ug_ExHurcoY",
+	"order": {
+		"$numberInt": "3"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
+{
+	"_id": {
+		"$oid": "5b7c285d71e81f0056d46eda"
+	},
+	"systemName": "whos-afraid-of-a-broken-heart-piano-cover",
+	"name": "Who's Afraid of a Broken Heart - Piano Cover",
+	"date": "October 27, 2016",
+	"image": "images/lyrics/whosafraid",
+	"youtubeVideoCode": "EXTkCNkuB0U",
+	"order": {
+		"$numberInt": "4"
+	},
+	"__v": {
+		"$numberInt": "0"
+	}
+}
