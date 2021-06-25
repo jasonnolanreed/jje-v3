@@ -2,7 +2,7 @@ const makeCss = (component) => ``;
 
 const makeHtml = (component) => (
 `
-<h1>Lyrics</h1>
+<h1 class="page-header"><jje-icon name="audio_track"></jje-icon>Lyrics</h1>
 `
 );
 

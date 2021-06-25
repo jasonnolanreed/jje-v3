@@ -2,7 +2,7 @@ const makeCss = (component) => ``;
 
 const makeHtml = (component) => (
 `
-<h1>Laughs</h1>
+<h1 class="page-header"><jje-icon name="emoji_emotions"></jje-icon>Laughs</h1>
 `
 );
 

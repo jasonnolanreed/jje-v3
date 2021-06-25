@@ -2,8 +2,7 @@ const makeCss = (component) => ``;
 
 const makeHtml = (component) => (
 `
-<h1>Contact</h1>
-`
+<h1 class="page-header"><jje-icon name="alternate_email"></jje-icon>Contact</h1>`
 );
 
 export const makeTemplate = (component) => {

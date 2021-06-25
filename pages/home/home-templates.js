@@ -2,7 +2,7 @@ const makeCss = (component) => ``;
 
 const makeHtml = (component) => (
 `
-<h1>Home</h1>
+<h1 class="page-header"><jje-icon name="home"></jje-icon>Home</h1>
 `
 );
 
