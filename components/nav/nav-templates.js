@@ -24,7 +24,7 @@ const makeHtml = (component) => (
 		<jje-social></jje-social>
 	</div>
 	<div class="press section2">
-		<a href="https://res.cloudinary.com/jayjacksonentertainment/jje/pdfs/epk-20170628" target="presskit">
+		<a href="/cdn/pdfs/epk-20170628" target="presskit">
 			<h5>
 				<jje-icon name="file_download"></jje-icon>
 				Download Press Kit
