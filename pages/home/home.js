@@ -23,10 +23,8 @@ export class Home extends JJEElement {
 
 	render() {
 		super.render();
-		if (this.pageData.title) {
-			document.title = this.pageData.title;
-		}
 		try {
+			document.title = this.pageData.title;
 			this.innerHTML = makeTemplate(this);
 		} catch(error) {
 			console.error(`Error rendering`, error);

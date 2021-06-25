@@ -22,7 +22,7 @@ const makeHtml = (component) => (
 );
 
 const outputHomeBanners = component => {
-	var html = ``;
+	let html = ``;
 	if (component.homeBanners && component.homeBanners.length) {
 		for (const homeBanner of component.homeBanners) {
 			html += `
