@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "router.js",
 	"scripts": {
-		"dev": "python -m SimpleHTTPServer 80",
+		"dev": "http-server",
 		"postinstall": "sh ./shell-scripts/vendor.sh"
 	},
 	"keywords": [],
