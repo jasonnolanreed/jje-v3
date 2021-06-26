@@ -1,6 +1,7 @@
 const makeCss = (component) => (
 `
 <style>
+@import "styles/components/detail-nav.css";
 @import "styles/components/nav.css";
 </style>
 `

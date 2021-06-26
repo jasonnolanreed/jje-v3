@@ -20,7 +20,7 @@ const outputLaughs = component => {
 		const laugh = component.laughs[laughKey];
 		html += `
 		<div class="grid-item col-sm-24 col-md-12 col-lg-12 section2">
-			<a href="#/laughs/details/${Object.keys(component.laughs)[index]}">
+			<a href="#/laugh/${Object.keys(component.laughs)[index]}">
 				<div class="section0">
 					<div class="video-banner">
 						<img src="${laugh.image}">

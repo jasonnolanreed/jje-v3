@@ -21,7 +21,7 @@
 	position: relative;
 	height: 100%; min-height: 100vh;
 	margin-left: var(--nav-width); margin-right: 0;
-	transition: margin-left 0.5s ease;
+	transition: margin 0.5s ease;
 }
 .main-layout-container--content .main-logo { max-width: 25em; margin: 0 auto; padding: 0 2em 0 3em; }
 
