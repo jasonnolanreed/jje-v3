@@ -5,7 +5,7 @@ const makeHtml = (component) => (
 <h1 class="page-header"><jje-icon name="emoji_emotions"></jje-icon>${component.pageData.header}</h1>
 <hr>
 <div class="section2">
-	<jje-detail-nav currentkey="${component.laughKey}" collection="${encodeURI(JSON.stringify(component.laughs))}" baseurl="#/laugh"></jje-detail-nav>
+	<jje-detail-nav currentkey="${component.laughKey}" collection="${encodeURI(JSON.stringify(component.laughs))}" baseurl="#/laughs"></jje-detail-nav>
 </div>
 <div class="section2">
 	<h2 class="section00">${component.laugh.name}</h2>
@@ -17,7 +17,7 @@ const makeHtml = (component) => (
 	</div>
 </div>
 <div class="section2">
-<jje-detail-nav currentkey="${component.laughKey}" collection="${encodeURI(JSON.stringify(component.laughs))}" baseurl="#/laugh"></jje-detail-nav>
+<jje-detail-nav currentkey="${component.laughKey}" collection="${encodeURI(JSON.stringify(component.laughs))}" baseurl="#/laughs"></jje-detail-nav>
 </div>
 `
 );

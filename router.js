@@ -17,7 +17,7 @@ router
 .on(`/laughs`, (params, query) => {
 	LoadView.layout($view, layouts.main, `views/laughs-view.html`);
 })
-.on(`/laugh/:laughKey`, (params, query) => {
+.on(`/laughs/:laughKey`, (params, query) => {
 	LoadView.layout($view, layouts.main, `views/laugh-detail-view.html`);
 })
 .on(`/rogue-radio`, (params, query) => {

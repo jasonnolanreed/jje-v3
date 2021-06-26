@@ -6,8 +6,8 @@ const makeHtml = (component) => (
 	${component.previousKey ? outputPrevious(component) : outputPreviousDisabled(component)}
 	<div class="detail-nav-control list">
 	<a href="${component.getAttribute('baseurl')}">
-	<jje-icon name="list"></jje-icon>
-	<span class="label">List</span>
+		<jje-icon name="list"></jje-icon>
+		<span class="label">List</span>
 	</a>
 	</div>
 	${component.nextKey ? outputNext(component) : outputNextDisabled(component)}
