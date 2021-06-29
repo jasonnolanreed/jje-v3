@@ -2,7 +2,7 @@ export default {
 	"laughing-skull-clean": {
 		"name": "Laughing Skull (Clean) - Atlanta, GA",
 		"date": "November 16, 2016",
-		"image": "/cdn/images/laughs/laughingskull.png",
+		"image": "cdn/images/laughs/laughingskull.png",
 		"youtubeVideoCode": "fHBD1N-_AyE"
 	},
 	"pride-comedy-explicit": {

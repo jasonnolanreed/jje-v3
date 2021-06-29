@@ -1,6 +1,7 @@
 const makeCss = (component) => `
 <style>
 .lyric-audio-label { display: block; }
+.lyric-audio-element { width: 100%; max-width: 450px; }
 </style>
 `;
 
@@ -33,7 +34,7 @@ const outputLyricAudios = component => {
 				<em>"${audio.trackName}"</em> - <i>${audio.albumName}</i>, ${audio.year}
 			</label>
 			<audio
-				class="lyrics-audio-element"
+				class="lyric-audio-element"
 				controls="controls"
 				preload="none">
 				<source
