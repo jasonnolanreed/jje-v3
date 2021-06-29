@@ -1,16 +1,19 @@
+import {router} from '../../router.js';
 import {JJEElement} from '../../classes/jje-element.js';
-import {makeTemplate} from './lyrics-templates.js';
+import {makeTemplate} from './lyric-detail-templates.js';
 
 import pageData from '../../data/page-data.js';
 import lyrics from '../../data/lyrics.js';
-import lyricsAudios from '../../data/lyric-audios.js';
 
-export class Lyrics extends JJEElement {
+import '../../components/detail-nav/detail-nav.js';
+
+export class LyricDetail extends JJEElement {
 	constructor() {
 		super();
 		this.pageData = pageData.lyrics;
 		this.lyrics = lyrics;
-		this.lyricsAudios = lyricsAudios;
+		this.lyricKey = router.lastRouteResolved().params.lyricKey;
+		this.lyric = lyrics[this.lyricKey];
 	}
 
 	connectedCallback() {
@@ -33,4 +36,4 @@ export class Lyrics extends JJEElement {
 	}
 }
 
-customElements.define(`jje-lyrics`, Lyrics);
+customElements.define(`jje-lyric-detail`, LyricDetail);

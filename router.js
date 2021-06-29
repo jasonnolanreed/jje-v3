@@ -14,6 +14,9 @@ router
 .on(`/lyrics`, (params, query) => {
 	LoadView.layout($view, layouts.main, `views/lyrics-view.html`);
 })
+.on(`/lyrics/:lyricKey`, (params, query) => {
+	LoadView.layout($view, layouts.main, `views/lyric-detail-view.html`);
+})
 .on(`/laughs`, (params, query) => {
 	LoadView.layout($view, layouts.main, `views/laughs-view.html`);
 })
