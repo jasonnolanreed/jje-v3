@@ -14,7 +14,7 @@ const makeHtml = (component) => (
 `
 );
 
-export const outputRogueRadios = component => {
+const outputRogueRadios = component => {
 	let html = ``;
 	Object.keys(component.rogueRadios).map((rogueRadioKey, index) => {
 		const rogueRadio = component.rogueRadios[rogueRadioKey];

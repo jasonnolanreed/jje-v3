@@ -32,6 +32,9 @@ router
 .on(`/rogue-report`, (params, query) => {
 	LoadView.layout($view, layouts.main, `views/rogue-report-view.html`);
 })
+.on(`/rogue-report/:rogueReportKey`, (params, query) => {
+	LoadView.layout($view, layouts.main, `views/rogue-report-detail-view.html`);
+})
 .on(`/calendar`, (params, query) => {
 	LoadView.layout($view, layouts.main, `views/calendar-view.html`);
 })

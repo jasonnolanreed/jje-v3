@@ -13,7 +13,7 @@ const makeHtml = (component) => (
 `
 );
 
-export const outputRogueReports = component => {
+const outputRogueReports = component => {
 	let html = ``;
 	Object.keys(component.rogueReports).map((rogueReportKey ,index) => {
 		const rogueReport = component.rogueReports[rogueReportKey];

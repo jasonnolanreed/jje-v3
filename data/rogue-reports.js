@@ -49,7 +49,7 @@ export default {
 				"body": "A little blood vessel in my head pops every time I see posts like this:",
 				"images": [
 					{
-						"path": "images/rogue-report/trump03",
+						"path": "cdn/images/rogue-report/trump03.jpg",
 						"description": null
 					}
 				]
@@ -141,7 +141,7 @@ export default {
 				"body": "I digress. Another great thing about working out of state is forging new connections and friendships. This was the second time I'd met/worked with Tommy Oler, who runs a great open mic at P&H Cafe (if you're ever in Memphis on a Thursday night, you should absolutely go). Amanda Walker and Lila Mae Bear are hilarious; I've gotta work on getting them to Little Rock soon. Mitchell Dunnam is not only a really funny guy, he's also a graphics guy, which is about to come in handy for some upcoming shows (stay tuned). And all the open mic'ers were ridiculously funny as well.",
 				"images": [
 					{
-						"path": "images/rogue-report/blog-05",
+						"path": "cdn/images/rogue-report/blog-05.jpg",
 						"description": "From left: Jared Lowry, Tommy Oler, Jay Jackson, Lisa Michaels, Lila Mae Bear hanging out after the show. Photo: Chad Kusturin."
 					}
 				]
