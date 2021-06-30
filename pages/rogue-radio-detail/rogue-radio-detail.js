@@ -1,14 +1,19 @@
+import {router} from '../../router.js';
 import {JJEElement} from '../../classes/jje-element.js';
-import {makeTemplate} from './rogue-radio-templates.js';
+import {makeTemplate} from './rogue-radio-detail-templates.js';
 
 import pageData from '../../data/page-data.js';
 import rogueRadios from '../../data/rogue-radios.js';
 
-export class RogueRadio extends JJEElement {
+import '../../components/detail-nav/detail-nav.js';
+
+export class RogueRadioDetail extends JJEElement {
 	constructor() {
 		super();
 		this.pageData = pageData[`rogue-radio`];
 		this.rogueRadios = rogueRadios;
+		this.rogueRadioKey = router.lastRouteResolved().params.rogueRadioKey;
+		this.rogueRadio = rogueRadios[this.rogueRadioKey];
 	}
 
 	connectedCallback() {
@@ -31,4 +36,4 @@ export class RogueRadio extends JJEElement {
 	}
 }
 
-customElements.define(`jje-rogue-radio`, RogueRadio);
+customElements.define(`jje-rogue-radio-detail`, RogueRadioDetail);

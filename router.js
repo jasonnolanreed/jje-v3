@@ -26,6 +26,9 @@ router
 .on(`/rogue-radio`, (params, query) => {
 	LoadView.layout($view, layouts.main, `views/rogue-radio-view.html`);
 })
+.on(`/rogue-radio/:rogueRadioKey`, (params, query) => {
+	LoadView.layout($view, layouts.main, `views/rogue-radio-detail-view.html`);
+})
 .on(`/rogue-report`, (params, query) => {
 	LoadView.layout($view, layouts.main, `views/rogue-report-view.html`);
 })
